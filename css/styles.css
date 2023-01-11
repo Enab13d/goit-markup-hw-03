@@ -1,0 +1,114 @@
+:root {
+  --main-text-color: #434455;
+  --header-text-color: #2e2f42;
+  --primary-brand-color: #4d5ae5;
+  --accent-color: #e7e9fc;
+  --cloud-logo-color: #f4f4fd;
+  --main-background-color: #fff;
+  --active-button-color: #404bbf;
+}
+/* body */
+body {
+  font-family: Roboto, HelveticaNeue, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.header-logo {
+  color: var(--header-text-color);
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: var(--primary-brand-color);
+}
+
+/* links */
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+.nav-link,
+.contact-link {
+  font-weight: 500;
+  color: var(--header-text-color);
+  text-decoration: none;
+}
+.nav-link:hover,
+.contact-link:hover,
+.nav-link:focus,
+.contact-link:focus {
+  color: var(--primary-brand-color);
+}
+/* hero */
+.hero,
+.footer-section {
+  background-color: var(--header-text-color);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--main-background-color);
+  text-align: center;
+}
+.hero-button {
+  letter-spacing: 0.04em;
+  color: var(--main-background-color);
+  background-color: var(--primary-brand-color);
+}
+/* sections */
+.title,
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--header-text-color);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--header-text-color);
+  text-align: center;
+}
+
+/* buttons */
+.button {
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.portfolio-button {
+  color: var(--primary-brand-color);
+  background-color: var(--accent-color);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--main-background-color);
+  background-color: var(--active-button-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--active-button-color);
+}
+/* footer */
+.footer-text {
+  color: var(--accent-color);
+}
+.footer-logo {
+  color: var(--cloud-logo-color);
+}
+
+/* list-styles */
+.list {
+  list-style: none;
+}
